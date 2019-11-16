@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <nav class="sidebar">
+        <div class="inner-sidebar">
+            <div class="links-wrapper">
+                <div class="image-wrapper">
+                    <span class="image-wrapper-radius">
+                    <img src="./images/image.jpg" alt="image" id="image">
+                        </span>
+                </div>
+                <div class="links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#yee">Yee?</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="body">
+
+        <section id="about">
+            <h1 class="name">Noah <span>Doughton</span></h1>
+            <h2>Full Stack Developer | Dad</h2>
+            <div class="copy">
+                Heh, I do web stuff sometimes, brah. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio fugiat inventore ipsam itaque neque pariatur perspiciatis quibusdam reprehenderit ullam
+                veritatis! At autem deserunt ducimus error, labore officiis sunt. Autem, minima! Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Iure, nesciunt, odit. Aliquid, doloremque ducimus. Dolore dolores
+                illum laborum quasi sunt, vitae. Assumenda facere facilis ipsa labore officiis, quam recusandae ullam?
+            </div>
+        </section>
+        <section id="experience">
+            <div class="experience-wrapper">
+                <div class="header">
+                    <h1>Propaganda Creative</h1>
+                    <div class="year">2019-2020</div>
+                </div>
+                <div class="copy">
+                    Did programming, design, function and more. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Atque debitis eveniet hic iure libero quam, repellat reprehenderit temporibus? Accusamus alias
+                    consectetur corporis dignissimos doloribus in nesciunt porro quam repudiandae similique!
+                </div>
+            </div>
+            <div class="experience-wrapper">
+                <div class="header">
+                    <h1>AND Tech</h1>
+                    <div class="year">2015-2019</div>
+                </div>
+                <div class="copy">
+                    Did programming, design, function and more. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Atque debitis eveniet hic iure libero quam, repellat reprehenderit temporibus? Accusamus alias
+                    consectetur corporis dignissimos doloribus in nesciunt porro quam repudiandae similique!
+                </div>
+            </div>
+        </section>
+        <section id="yee">
+            <div class="header">
+                <h1>Wanna hear a yee?</h1>
+                <h3>~ hush child, I know you do ~</h3>
+            </div>
+            <div class="copy">
+                You are the lucky recipient of one free yee. Please enter your name below and receive your yee.
+            </div>
+            <div class="form">
+                <form>
+
+                    <input type="text" min="2" max="100" required placeholder="Name">
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+            <div class="yee-player hidden">
+                <audio controls>
+                    <source src="yee.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+        </section>
+
+    </div>
+</div>
+<script src="yee.js"></script>
+</body>
+</html>

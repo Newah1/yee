@@ -1,0 +1,179 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.page-wrapper{
+    display: flex;
+    height:100%;
+}
+
+.sidebar{
+    height: 100%;
+    width:275px;
+    background-color: orange;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.links, a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.links a:hover{
+    text-decoration: underline;
+
+}
+.image-wrapper{
+    overflow: hidden;
+
+}
+.image-wrapper-radius{
+    display: block;
+    border-radius: 150%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#image{
+    /*display: block;*/
+    width:200px;
+    transform: translateX(-16px);
+
+    text-align: center;
+
+}
+
+.body{
+    padding: 2rem 4rem;
+    scroll-behavior: smooth;
+    width: 100%;
+    flex: 1;
+}
+
+h1, h2, h3{
+    padding: 0;
+    margin:0;
+    font-family: Calistoga, serif;
+}
+
+.body > section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+
+.body{
+    max-height:100vh;
+    overflow-y: scroll;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.name > span{
+    color: orange
+}
+
+#about{
+
+}
+#about .copy{
+    line-height: 1.4;
+    padding-top: 2rem;
+}
+#about h1{
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+#about h2{
+    letter-spacing: 1px;
+
+}
+
+
+#experience .experience-wrapper{
+    padding-bottom: 2rem;
+}
+#experience .header{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+
+}
+#experience .year{
+    font-weight: bold;
+}
+
+#yee h1{
+    font-size: 40px;
+}
+#yee h3{
+    padding-top: .5rem;
+}
+#yee .copy, #yee .form{
+    padding-top: 2rem;
+}
+.yee-player{
+    padding-top: 2rem;
+}
+.yee-player.hidden, .form.hidden{
+    display: none;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+form > input {
+    margin-bottom: 1rem;
+}
+.form input[type='text']{
+    border: none;
+    border-bottom: 2px solid orange;
+    padding: .5rem 0;
+}
+.form input[type='submit']{
+    border:0;
+    background: orange;
+    border-radius: 4px;
+    color:white;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    transition: background-color 250ms ease;
+    cursor: pointer;
+
+}
+.form input[type='submit']:hover{
+    background-color: #ffbb2c;
+
+}
+
